@@ -34,22 +34,22 @@ var { JIRA_API } = require('qansigliere-jira-api-integration');
 
 (async function Demo() {
     let new_integration = new JIRA_API();
-    let resp = await new_integration.get_templates(1);
+    let resp = await new_integration.download_search_jql('STATUS CHANGED AFTER -2W ORDER BY created DESC');
     console.log(JSON.stringify(resp));
 })();
 ```
 
 ## API Documentation
 
-### Case Types
+### Issue search
 
-TestRail documentation is present [here](https://support.testrail.com/hc/en-us/articles/7077295487252-Case-Types)
+JIRA documentation is present [here](https://support.testrail.com/hc/en-us/articles/7077295487252-Case-Types)
 
-#### get_case_types
+#### Search for issues using JQL enhanced search (GET)
 
 ```
 let new_integration = new TestRail_API();
-let resp = await new_integration.get_case_types();
+let resp = await new_integration.download_search_jql('STATUS CHANGED AFTER -2W ORDER BY created DESC');
 ```
 
 ## Related Videos
