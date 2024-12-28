@@ -27,7 +27,7 @@ export JIRA_APIKEY="__YOUR_JIRA_APIKEY__"
 
 Just run in the terminal the following command: `source yourfile.env`
 
-### And now You can make any API call to Your TestRail
+### And now You can make any API call to Your JIRA
 
 ```
 var { JIRA_API } = require('qansigliere-jira-api-integration');
