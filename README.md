@@ -43,13 +43,26 @@ var { JIRA_API } = require('qansigliere-jira-api-integration');
 
 ### Issue search
 
-JIRA documentation is present [here](https://support.testrail.com/hc/en-us/articles/7077295487252-Case-Types)
+JIRA documentation is present
+[here](https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-search/#api-group-issue-search)
 
 #### Search for issues using JQL enhanced search (GET)
 
 ```
-let new_integration = new TestRail_API();
+let new_integration = new JIRA_API();
 let resp = await new_integration.download_search_jql('STATUS CHANGED AFTER -2W ORDER BY created DESC');
+```
+
+### Issues
+
+JIRA documentation is present
+[here](https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/#api-group-issues)
+
+#### Get issue
+
+```
+let new_integration = new JIRA_API();
+let resp = await new_integration.get_issue('10178');
 ```
 
 ## Related Videos
