@@ -1,0 +1,40 @@
+{
+  "name": "qansigliere-jira-api-integration",
+  "version": "0.0.1",
+  "description": "The main idea of ​​this library created in the JavaScript language is to provide a ready-made set of API methods for integration with JIRA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QANSIGLIERE/jiraAPIIntegration.git"
+  },
+  "keywords": [
+    "npmjs",
+    "jira",
+    "api",
+    "js",
+    "javascript",
+    "integration",
+    "qansigliere",
+    "issue",
+    "ticket",
+    "bug",
+    "defect",
+    "story",
+    "epic",
+    "story points",
+    "type",
+    "status"
+  ],
+  "author": "qansigliere@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QANSIGLIERE/jiraAPIIntegration/issues"
+  },
+  "homepage": "https://github.com/QANSIGLIERE/jiraAPIIntegration.git#readme",
+  "dependencies": {
+    
+  }
+}
