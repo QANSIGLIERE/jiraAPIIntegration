@@ -65,6 +65,18 @@ let new_integration = new JIRA_API();
 let resp = await new_integration.get_issue('10178');
 ```
 
+### Issue fields
+
+JIRA documentation is present
+[here](https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issue-fields/#api-group-issue-fields)
+
+#### Get fields
+
+```
+let new_integration = new JIRA_API();
+let resp = await new_integration.get_field();
+```
+
 ## Related Videos
 
 -   https://www.youtube.com/live/KxL0Eg5wmJU?si=W_vYh5f2prU6bBkA
