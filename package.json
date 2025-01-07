@@ -1,6 +1,6 @@
 {
   "name": "qansigliere-jira-api-integration",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "The main idea of ​​this library created in the JavaScript language is to provide a ready-made set of API methods for integration with JIRA",
   "main": "index.js",
   "scripts": {
