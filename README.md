@@ -89,6 +89,13 @@ let new_integration = new JIRA_API();
 let resp = await new_integration.get_all_users();
 ```
 
+#### Get all users default
+
+```
+let new_integration = new JIRA_API();
+let resp = await new_integration.get_all_users_by_default();
+```
+
 ## Related Videos
 
 -   https://www.youtube.com/live/KxL0Eg5wmJU?si=W_vYh5f2prU6bBkA
