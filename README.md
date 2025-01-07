@@ -77,6 +77,18 @@ let new_integration = new JIRA_API();
 let resp = await new_integration.get_field();
 ```
 
+### Users
+
+JIRA documentation is present
+[here](https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-users/#api-group-users)
+
+#### Get all users
+
+```
+let new_integration = new JIRA_API();
+let resp = await new_integration.get_all_users();
+```
+
 ## Related Videos
 
 -   https://www.youtube.com/live/KxL0Eg5wmJU?si=W_vYh5f2prU6bBkA
