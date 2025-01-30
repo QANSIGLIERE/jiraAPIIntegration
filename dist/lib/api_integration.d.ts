@@ -1,5 +1,5 @@
 export class JIRA_API {
-    constructor(url: any, username: any, api_key: any);
+    constructor(url?: any, username?: any, api_key?: any);
     url: any;
     headers: {
         'user-agent': string;
