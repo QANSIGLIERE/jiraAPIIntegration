@@ -7,6 +7,10 @@ integration with JIRA
 
 https://www.youtube.com/@QANSIGLIERE/
 
+## Support the project
+
+https://buymeacoffee.com/qansigliere
+
 ## Installation
 
 Using npm `npm i qansigliere-jira-api-integration`
@@ -99,3 +103,7 @@ let resp = await new_integration.get_all_users_by_default();
 ## Related Videos
 
 -   https://www.youtube.com/live/KxL0Eg5wmJU?si=W_vYh5f2prU6bBkA
+
+## Improvements & Suggestions
+
+https://forms.gle/GZbS9hw42tSYJxKL7
